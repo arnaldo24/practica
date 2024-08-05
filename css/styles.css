@@ -11,4 +11,27 @@ h1 {
   text-align: center;
 }
 
+ul {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  border: 1px solid red;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .2);
+}
+
+li {
+  color: orange;
+  padding: 1rem;
+  transition: background 0.7s ease-in-out;
+  flex-grow: 1;
+}
+li:hover {
+  color: white;
+  background-color: gray;
+}
+
+li:nth-child(3) {
+  color: skyblue;
+}
+
 /*# sourceMappingURL=styles.css.map */

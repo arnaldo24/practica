@@ -9,3 +9,22 @@ body{
 h1{
 	text-align: center;
 }
+ul{
+    list-style: none;
+    display: flex;
+    border: 1px solid red
+}
+li{
+    color: orange;
+    padding: 1rem;
+    transition: background .7s ease-in-out;
+    flex-grow: 1;
+
+    &:hover{
+        color: white;
+        background-color: gray;
+    }
+}
+li:nth-child(3){
+    color: skyblue;
+}
