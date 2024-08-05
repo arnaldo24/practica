@@ -9,3 +9,12 @@ body{
 h1{
 	text-align: center;
 }
+ul{
+    list-style: none;
+    display: flex;
+
+    li{
+        flex-grow: 1;
+        padding: 1rem;
+    }
+}
