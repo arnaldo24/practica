@@ -17,6 +17,9 @@ ul {
   list-style: none;
   display: flex;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 ul:hover {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
@@ -24,6 +27,9 @@ ul:hover {
 ul li {
   flex-grow: 1;
   padding: 1rem;
+}
+ul li:hover {
+  background-color: bisque;
 }
 
 /*# sourceMappingURL=styles.css.map */
