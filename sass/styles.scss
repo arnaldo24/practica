@@ -3,6 +3,7 @@ $color: white;
 	--color1: orange;
 }
 body{
+    background-color: skyblue;
 	font-size: 16px;
 	font-family: sans-serif;
 }
@@ -10,8 +11,14 @@ h1{
 	text-align: center;
 }
 ul{
+    border: 1px solid red;
     list-style: none;
     display: flex;
+    box-shadow: 0 3px 6px rgba(0,0,0, .2);
+
+    &:hover{
+        box-shadow: 0 5px 8px rgba(0,0,0, .3);
+    }
 
     li{
         flex-grow: 1;
